@@ -9,6 +9,7 @@ namespace ButtonExtension.Data
     {
         public ButtonState State;
         public Material Material;
+        public float Alpha;
     }
     
     [CreateAssetMenu(fileName = "Button text settings", menuName = "Button settings/Text settings")]

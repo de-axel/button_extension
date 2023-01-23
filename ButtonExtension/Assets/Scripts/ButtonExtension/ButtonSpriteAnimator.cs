@@ -4,15 +4,14 @@ using UnityEngine.UI;
 
 namespace ButtonExtension
 {
-    [RequireComponent(typeof(Image))]
-    public class ButtonSpriteAnimation : ButtonAnimation<ButtonSpriteSettings>
+    public class ButtonSpriteAnimator : ButtonAnimator<ButtonSpriteSettings>
     {
         [SerializeField] private Image _image;
 
         protected override void Reset()
         {
-            base.Reset();
             _image = GetComponent<Image>();
+            base.Reset();
         }
 
         protected override void OnStateChanged(ButtonState buttonState)

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ButtonExtension
 {
-    public class ButtonSelector : MonoBehaviour
+    public class Selectable : MonoBehaviour
     {
         [SerializeField] private Button[] _buttons;
 

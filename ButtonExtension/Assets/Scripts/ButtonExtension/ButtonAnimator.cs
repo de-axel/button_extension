@@ -1,10 +1,11 @@
+using System.Runtime.InteropServices;
 using ButtonExtension.Data;
 using UnityEngine;
 
 namespace ButtonExtension
 {
-    [RequireComponent(typeof(Button))]
-    public abstract class ButtonAnimation<T> : MonoBehaviour where T : ButtonSettings
+    [DisallowMultipleComponent]
+    public abstract class ButtonAnimator<T> : MonoBehaviour where T : ButtonSettings
     {
         [SerializeField] private Button _button;
         [SerializeField] private T _buttonSettings;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ButtonExtension
 {
-    public class ButtonScaleAnimation : ButtonAnimation<ButtonScaleSettings>
+    public class ButtonScaleAnimator : ButtonAnimator<ButtonScaleSettings>
     {
         private Coroutine _scaleRoutine;
 

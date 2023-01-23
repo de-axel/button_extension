@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 namespace ButtonExtension
 {
-    [RequireComponent(typeof(Image))]
-    public class ButtonColorAnimation : ButtonAnimation<ButtonColorSettings>
+    public class ButtonColorAnimator : ButtonAnimator<ButtonColorSettings>
     {
         [SerializeField] private Image _image;
 
@@ -14,8 +13,8 @@ namespace ButtonExtension
         
         protected override void Reset() 
         {
-            base.Reset();
             _image = GetComponent<Image>();
+            base.Reset();
         }
 
         protected override void OnStateChanged(ButtonState buttonState)

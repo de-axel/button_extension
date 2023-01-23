@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 namespace ButtonExtension
@@ -18,16 +20,28 @@ namespace ButtonExtension
         PointerUp,
         PointerDown
     }
+    
+    [Serializable]
+    public class ButtonEditorCallback
+    {
+        public UnityEvent Event;
+    }
 
     public class Button : UIBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
     {
         [SerializeField] private PointerType _pointerType = PointerType.PointerUp;
         [SerializeField] private bool _interactable = true;
-
+        
+        private readonly List<CanvasGroup> _canvasGroupCache = new List<CanvasGroup>();
+        
         private ButtonState _currentState;
+        private bool _groupsAllowInteraction = true;
         private bool _pressed;
         private bool _selected;
 
+        [HideInInspector] public ButtonEditorCallback ButtonEditorCallback;
+        [HideInInspector] public bool UseEditorCallback;
+        
         public bool Pressed
         {
             get => _pressed;
@@ -110,8 +124,49 @@ namespace ButtonExtension
             CallActions();
         }
 
+        protected override void OnCanvasGroupChanged()
+        {
+            // Figure out if parent groups allow interaction
+            // If no interaction is alowed... then we need
+            // to not do that :)
+            var groupAllowInteraction = true;
+            Transform t = transform;
+            while (t != null)
+            {
+                t.GetComponents(_canvasGroupCache);
+                bool shouldBreak = false;
+                for (var i = 0; i < _canvasGroupCache.Count; i++)
+                {
+                    // if the parent group does not allow interaction
+                    // we need to break
+                    if (_canvasGroupCache[i].enabled && !_canvasGroupCache[i].interactable)
+                    {
+                        groupAllowInteraction = false;
+                        shouldBreak = true;
+                    }
+                    // if this is a 'fresh' group, then break
+                    // as we should not consider parents
+                    if (_canvasGroupCache[i].ignoreParentGroups)
+                        shouldBreak = true;
+                }
+                if (shouldBreak)
+                    break;
+
+                t = t.parent;
+            }
+
+            if (groupAllowInteraction != _groupsAllowInteraction)
+            {
+                _groupsAllowInteraction = groupAllowInteraction;
+                Interactable = _groupsAllowInteraction;
+            }
+        }
+
         private void CallActions()
         {
+            if (UseEditorCallback)
+                ButtonEditorCallback.Event?.Invoke();
+            
             Clicked?.Invoke();
         }
 

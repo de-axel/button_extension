@@ -10,6 +10,7 @@ namespace ButtonExtension.Data
         public ButtonState State;
         public AnimationCurve MoveShineCurve;
         public AnimationCurve ScaleButtonCurve;
+        public float ScaleValue;
         public float Duration;
         public float Delay;
     }
