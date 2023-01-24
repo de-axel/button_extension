@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Editor
 {
-
     [CustomEditor(typeof(Button))]
     public class ButtonEditor : UnityEditor.Editor
     {

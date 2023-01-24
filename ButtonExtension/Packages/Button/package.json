@@ -1,0 +1,15 @@
+{
+  "name": "com.axios.button-extension",
+  "displayName": "Button",
+  "version": "1.0.0",
+  "description": "Unity standard button replacement. \nWith flexibly customizable components for different animations",
+  "keywords": [
+    "tools",
+    "extensions"
+  ],
+  "author": {
+    "name": "Anatoly Garchick",
+    "email": "anatoly.garchik@gmail.com"
+  },
+  "unity": "2018.1"
+}
