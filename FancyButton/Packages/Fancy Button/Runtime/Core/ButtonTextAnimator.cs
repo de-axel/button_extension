@@ -1,8 +1,8 @@
-using Data;
+using FancyButton.Data;
 using TMPro;
 using UnityEngine;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [AddComponentMenu("Fancy Button/Button Text Animator")]
     public class ButtonTextAnimator : ButtonAnimator<ButtonTextSettings>

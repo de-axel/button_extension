@@ -1,8 +1,8 @@
-﻿using Data;
+﻿using FancyButton.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [AddComponentMenu("Fancy Button/Button Sprite Animator")]
     public class ButtonSpriteAnimator : ButtonAnimator<ButtonSpriteSettings>

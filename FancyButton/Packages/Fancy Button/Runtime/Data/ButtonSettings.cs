@@ -1,7 +1,7 @@
-﻿using FancyButtons;
+﻿using FancyButton.Core;
 using UnityEngine;
 
-namespace Data
+namespace FancyButton.Data
 {
     public abstract class ButtonSettings : ScriptableObject
     {

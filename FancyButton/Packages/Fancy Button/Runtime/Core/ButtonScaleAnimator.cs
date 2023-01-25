@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using Data;
+using FancyButton.Data;
 using UnityEngine;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [AddComponentMenu("Fancy Button/Button Scale Animator")]
     public class ButtonScaleAnimator : ButtonAnimator<ButtonScaleSettings>

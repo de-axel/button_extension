@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.anatolygarchik.fancybutton": {
-      "version": "file:FancyButton",
+      "version": "file:Fancy Button",
       "depth": 0,
       "source": "embedded",
       "dependencies": {

@@ -1,24 +1,23 @@
 using System;
 using System.Linq;
-using FancyButtons;
+using FancyButton.Core;
 using UnityEngine;
 
-namespace Data
+namespace FancyButton.Data
 {
     [Serializable]
-    public class ScaleSettings : IButtonSettings
+    public class TextSettings : IButtonSettings
     {
         public ButtonState State;
-        public AnimationCurve Curve;
-        public float Value;
-        public float Duration;
+        public Material Material;
+        public float Alpha;
     }
     
-    [CreateAssetMenu(fileName = "Button scale settings", menuName = "Button settings/Scale settings")]
-    public class ButtonScaleSettings : ButtonSettings
+    [CreateAssetMenu(fileName = "Button text settings", menuName = "Button settings/Text settings")]
+    public class ButtonTextSettings : ButtonSettings
     {
-        [SerializeField] private ScaleSettings[] _settings;
-
+        [SerializeField] private TextSettings[] _settings;
+        
         public override bool IsAvailableState(ButtonState state)
         {
             return _settings.Any(setting => setting.State == state);
@@ -26,7 +25,7 @@ namespace Data
 
         public override T GetScaleSettings<T>(ButtonState state)
         {
-            foreach (ScaleSettings setting in _settings)
+            foreach (TextSettings setting in _settings)
             {
                 if (setting.State == state)
                     return (T)Convert.ChangeType(setting, typeof(T));

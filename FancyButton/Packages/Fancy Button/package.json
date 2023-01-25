@@ -1,7 +1,7 @@
 {
   "name": "com.anatolygarchik.fancybutton",
   "version": "1.0.0",
-  "displayName": "FancyButton",
+  "displayName": "Fancy Button",
   "description": "Unity standard button replacement. \nWith flexibly customizable components for different animations",
   "documentationUrl": "https://github.com/de-axel/fancy_button/blob/v1.0.0/README.md",
   "keywords": [

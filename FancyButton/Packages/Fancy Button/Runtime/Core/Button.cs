@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [Flags]
     public enum ButtonState

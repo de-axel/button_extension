@@ -1,4 +1,4 @@
-using FancyButtons;
+using FancyButton.Core;
 using UnityEditor;
 using UnityEngine;
 

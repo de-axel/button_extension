@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [AddComponentMenu("Fancy Button/Selectable")]
     public class Selectable : MonoBehaviour

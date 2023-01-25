@@ -1,9 +1,9 @@
 ﻿using System.Collections;
-using Data;
+using FancyButton.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FancyButtons
+namespace FancyButton.Core
 {
     [AddComponentMenu("Fancy Button/Button Color Animator")]
     public class ButtonColorAnimator : ButtonAnimator<ButtonColorSettings>
