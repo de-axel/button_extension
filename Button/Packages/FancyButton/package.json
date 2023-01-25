@@ -15,5 +15,9 @@
     "name": "Anatoly Garchick",
     "email": "anatoly.garchik@gmail.com",
     "url": "https://github.com/de-axel"
+  },
+  "repository": {
+    "url": "https://github.com/de-axel/fancy_button",
+    "type": "git"
   }
 }
