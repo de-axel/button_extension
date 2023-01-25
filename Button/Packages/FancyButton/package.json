@@ -1,0 +1,19 @@
+{
+  "name": "com.axio.fancybutton",
+  "version": "1.0.0",
+  "displayName": "FancyButton",
+  "description": "Unity standard button replacement. \nWith flexibly customizable components for different animations",
+  "documentationUrl": "https://github.com/de-axel/fancy_button/blob/v1.0.0/README.md",
+  "keywords": [
+    "tools",
+    "extensions"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "author": {
+    "name": "Anatoly Garchick",
+    "email": "anatoly.garchik@gmail.com",
+    "url": "https://github.com/de-axel"
+  }
+}
