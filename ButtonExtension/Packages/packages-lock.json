@@ -4,9 +4,7 @@
       "version": "file:Button",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {
-        "com.unity.textmeshpro": "3.0.6"
-      }
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.17.7",
