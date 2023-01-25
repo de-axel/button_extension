@@ -1,10 +1,11 @@
 ﻿using System.Collections;
-using ButtonExtension.Data;
+using Data;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
+    [AddComponentMenu("Fancy Button/Button Color Animator")]
     public class ButtonColorAnimator : ButtonAnimator<ButtonColorSettings>
     {
         [SerializeField] private Image _image;

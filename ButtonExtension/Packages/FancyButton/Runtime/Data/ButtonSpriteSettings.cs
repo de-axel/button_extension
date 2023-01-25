@@ -1,22 +1,21 @@
 using System;
 using System.Linq;
+using FancyButtons;
 using UnityEngine;
 
-namespace ButtonExtension.Data
+namespace Data
 {
     [Serializable]
-    public class ColorSettings : IButtonSettings
+    public class SpriteSettings : IButtonSettings
     {
         public ButtonState State;
-        public AnimationCurve Curve;
-        public Color Color;
-        public float Duration;
+        public Sprite Sprite;
     }
-
-    [CreateAssetMenu(fileName = "Button color settings", menuName = "Button settings/Color settings")]
-    public class ButtonColorSettings : ButtonSettings
+    
+    [CreateAssetMenu(fileName = "Button sprite settings", menuName = "Button settings/Sprite settings")]
+    public class ButtonSpriteSettings : ButtonSettings
     {
-        [SerializeField] private ColorSettings[] _settings;
+        [SerializeField] private SpriteSettings[] _settings;
         
         public override bool IsAvailableState(ButtonState state)
         {
@@ -25,12 +24,12 @@ namespace ButtonExtension.Data
 
         public override T GetScaleSettings<T>(ButtonState state)
         {
-            foreach (ColorSettings setting in _settings)
+            foreach (SpriteSettings setting in _settings)
             {
                 if (setting.State == state)
                     return (T)Convert.ChangeType(setting, typeof(T));
             }
-
+            
             return default;
         }
     }

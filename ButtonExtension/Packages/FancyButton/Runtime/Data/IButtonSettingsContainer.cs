@@ -1,4 +1,4 @@
-﻿namespace ButtonExtension.Data
+﻿namespace Data
 {
     public interface IButtonSettings
     {

@@ -1,5 +1,5 @@
 {
-    "name": "com.anatolygarchik.button-extension.editor",
+    "name": "fancybutton.editor",
     "rootNamespace": "",
     "references": [
         "GUID:6f71d09169597804a991766d79087aad"

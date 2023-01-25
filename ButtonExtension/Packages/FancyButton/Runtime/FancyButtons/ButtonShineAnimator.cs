@@ -1,9 +1,10 @@
 using System.Collections;
-using ButtonExtension.Data;
+using Data;
 using UnityEngine;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
+    [AddComponentMenu("Fancy Button/Button Shine Animator")]
     [RequireComponent(typeof(RectTransform))]
     public class ButtonShineAnimator : ButtonAnimator<ButtonShineSettings>
     {

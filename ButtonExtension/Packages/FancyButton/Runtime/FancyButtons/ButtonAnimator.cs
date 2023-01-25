@@ -1,7 +1,7 @@
-using ButtonExtension.Data;
+using Data;
 using UnityEngine;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
     [DisallowMultipleComponent]
     public abstract class ButtonAnimator<T> : MonoBehaviour where T : ButtonSettings

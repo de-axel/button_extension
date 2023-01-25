@@ -1,9 +1,10 @@
-using ButtonExtension.Data;
+using Data;
 using TMPro;
 using UnityEngine;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
+    [AddComponentMenu("Fancy Button/Button Text Animator")]
     public class ButtonTextAnimator : ButtonAnimator<ButtonTextSettings>
     {
         [SerializeField] private TMP_Text _text;

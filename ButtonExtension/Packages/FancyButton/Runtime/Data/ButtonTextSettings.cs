@@ -1,8 +1,9 @@
 using System;
 using System.Linq;
+using FancyButtons;
 using UnityEngine;
 
-namespace ButtonExtension.Data
+namespace Data
 {
     [Serializable]
     public class TextSettings : IButtonSettings

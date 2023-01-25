@@ -1,7 +1,8 @@
 using UnityEngine;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
+    [AddComponentMenu("Fancy Button/Selectable")]
     public class Selectable : MonoBehaviour
     {
         [SerializeField] private Button[] _buttons;

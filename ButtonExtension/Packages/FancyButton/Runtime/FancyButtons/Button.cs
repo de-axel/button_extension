@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
     [Flags]
     public enum ButtonState
@@ -27,6 +27,8 @@ namespace ButtonExtension
         public UnityEvent Event;
     }
 
+    [DisallowMultipleComponent]
+    [AddComponentMenu("Fancy Button/Button")]
     public class Button : UIBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
     {
         [SerializeField] private PointerType _pointerType = PointerType.PointerUp;

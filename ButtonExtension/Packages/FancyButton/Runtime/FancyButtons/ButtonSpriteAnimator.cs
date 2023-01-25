@@ -1,9 +1,10 @@
-﻿using ButtonExtension.Data;
+﻿using Data;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ButtonExtension
+namespace FancyButtons
 {
+    [AddComponentMenu("Fancy Button/Button Sprite Animator")]
     public class ButtonSpriteAnimator : ButtonAnimator<ButtonSpriteSettings>
     {
         [SerializeField] private Image _image;

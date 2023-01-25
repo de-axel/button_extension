@@ -1,4 +1,4 @@
-using ButtonExtension;
+using FancyButtons;
 using UnityEditor;
 using UnityEngine;
 
