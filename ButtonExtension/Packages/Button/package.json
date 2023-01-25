@@ -1,15 +1,19 @@
 {
-  "name": "com.axios.button-extension",
-  "displayName": "Button",
+  "name": "com.anatolygarchik.button-extension",
   "version": "1.0.0",
+  "displayName": "Button",
   "description": "Unity standard button replacement. \nWith flexibly customizable components for different animations",
   "keywords": [
     "tools",
     "extensions"
   ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
   "author": {
     "name": "Anatoly Garchick",
     "email": "anatoly.garchik@gmail.com"
   },
-  "unity": "2018.1"
+  "unity": "2018.1",
+  "unityRelease": "0b5"
 }

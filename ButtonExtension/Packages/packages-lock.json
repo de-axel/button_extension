@@ -1,10 +1,12 @@
 {
   "dependencies": {
-    "com.axios.button-extension": {
+    "com.anatolygarchik.button-extension": {
       "version": "file:Button",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      }
     },
     "com.unity.collab-proxy": {
       "version": "1.17.7",
