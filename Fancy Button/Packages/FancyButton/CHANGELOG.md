@@ -5,4 +5,4 @@
 - Licence
 - Changelog
 
-[1.0.0]: https://github.com/de-axel/fancy-button/releases/tag/v1.0.0
+[1.0.0]: https://github.com/de-axel/fancy_button/releases/tag/v1.0.0
