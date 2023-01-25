@@ -7,10 +7,14 @@
     "tools",
     "extensions"
   ],
-  "author": {
-    "name": "Anatoly Garchick",
-    "email": "anatoly.garchik@gmail.com"
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
   },
   "unity": "2018.1",
-  "unityRelease": "0b5"
+  "unityRelease": "0b5",
+  "author": {
+    "name": "Anatoly Garchick",
+    "email": "anatoly.garchik@gmail.com",
+    "url": "https://github.com/de-axel"
+  }
 }
