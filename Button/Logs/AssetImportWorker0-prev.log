@@ -15,7 +15,7 @@ D:/Projects/fancy_button/Button
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51954
+52052
 Successfully changed project path to: D:/Projects/fancy_button/Button
 D:/Projects/fancy_button/Button
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Projects/fancy_button/Button
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10468] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3093898103 [EditorId] 3093898103 [Version] 1048832 [Id] WindowsEditor(7,Axel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10840] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 382989746 [EditorId] 382989746 [Version] 1048832 [Id] WindowsEditor(7,Axel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10468] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3093898103 [EditorId] 3093898103 [Version] 1048832 [Id] WindowsEditor(7,Axel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10840] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 382989746 [EditorId] 382989746 [Version] 1048832 [Id] WindowsEditor(7,Axel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.0f1 (35dcd44975df)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007090 seconds.
-- Loaded All Assemblies, in  0.334 seconds
+Registered in 0.006973 seconds.
+- Loaded All Assemblies, in  0.318 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 124 ms
+Android Extension - Scanning For ADB Devices 2226 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.375 seconds
+- Finished resetting the current domain, in  2.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (202ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (181ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (83ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
-				TypeCache.Initialize (119ms)
-					TypeCache.ScanAssembly (116ms)
+			SetupTypeCache (124ms)
+				TypeCache.Initialize (123ms)
+					TypeCache.ScanAssembly (121ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (324ms)
+			SetupLoadedEditorAssemblies (2440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (192ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (2293ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,49 +114,49 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.593 seconds
-Refreshing native plugins compatible for Editor in 7.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.437 seconds
+- Finished resetting the current domain, in  0.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (183ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (215ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		LoadAllAssembliesAndSetupDomain (405ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (26ms)
+		LoadAllAssembliesAndSetupDomain (498ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-				TypeCache.Initialize (217ms)
-					TypeCache.ScanAssembly (212ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (449ms)
+				TypeCache.Initialize (257ms)
+					TypeCache.ScanAssembly (251ms)
+				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (319ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (67.9 KB). Loaded Objects now: 3841.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (67.9 KB). Loaded Objects now: 3857.
 Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 2.720000 ms (FindLiveObjects: 0.253000 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.287000 ms  DeleteObjects: 0.082500 ms)
+Total: 3.498800 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.221700 ms MarkObjects: 2.902400 ms  DeleteObjects: 0.099200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -169,3 +169,654 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3435.396852 seconds.
+  path: Packages/com.anatolygarchik.fancybutton/package.json
+  artifactKey: Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.anatolygarchik.fancybutton/package.json using Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ebb2afa2de83f7d2016c4143d134a') in 0.027215 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.512044 seconds.
+  path: Packages/com.anatolygarchik.fancybutton/package.json
+  artifactKey: Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.anatolygarchik.fancybutton/package.json using Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a93c1e2e606dce64b2cbb9e90e20bad') in 0.002024 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Assembly with name 'fancybutton.editor' already exists (Packages/com.anatolygarchik.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonScaleAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Selectable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSpriteSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonShineSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonSpriteAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonShineAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonTextSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonScaleSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/IButtonSettingsContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonColorSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonTextAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Button.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonColorAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Assembly with name 'fancybutton.editor' already exists (Packages/com.anatolygarchik.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonScaleAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Selectable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSpriteSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonShineSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonSpriteAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonShineAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonTextSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonScaleSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/IButtonSettingsContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonColorSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonTextAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Button.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonColorAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'fancybutton.editor' already exists (Packages/com.anatolygarchik.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonScaleAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Selectable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonSpriteSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonShineSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonSpriteAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonShineAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonTextSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonScaleSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/IButtonSettingsContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Data/ButtonColorSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonTextAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/Button.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.anatolygarchik.fancybutton/Runtime/Core/ButtonColorAnimator.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (192ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		LoadAllAssembliesAndSetupDomain (457ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+				TypeCache.Initialize (220ms)
+					TypeCache.ScanAssembly (213ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.9 KB). Loaded Objects now: 3861.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.900900 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.182200 ms MarkObjects: 2.421300 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.950056 seconds.
+  path: Packages/com.axio.fancybutton/package.json
+  artifactKey: Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/package.json using Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee3cac09d7cf5347dbe291185b4a086') in 0.009454 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 55.410956 seconds.
+  path: Packages/com.axio.fancybutton/package.json
+  artifactKey: Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/package.json using Guid(c6de1432e0655c54dbe5ef42f4bf5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3971b8d17b1ce2b6ca8dcfdf9eb96af') in 0.002664 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.687750 seconds.
+  path: Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef
+  artifactKey: Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef using Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1996eb75db55630a400bf795eaafbacc') in 0.004343 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.171796 seconds.
+  path: Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef
+  artifactKey: Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef using Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e972dd8bea31d478f7f3d9a6d1f4ed') in 0.001826 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (202ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (419ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+				TypeCache.Initialize (215ms)
+					TypeCache.ScanAssembly (209ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.7 KB). Loaded Objects now: 3864.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.993800 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.202200 ms MarkObjects: 2.486600 ms  DeleteObjects: 0.039800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.117263 seconds.
+  path: Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef
+  artifactKey: Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef using Guid(b799b27d1785b934289706df7e883044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f983ba220def74694f9f584695e6a05') in 0.002904 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (196ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (436ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+				TypeCache.Initialize (227ms)
+					TypeCache.ScanAssembly (221ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.7 KB). Loaded Objects now: 3867.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.067400 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.560600 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.475262 seconds.
+  path: Packages/com.axio.fancybutton/Icons/button.png
+  artifactKey: Guid(d8bfa910f7a9ad14d9a2f513c3155449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Icons/button.png using Guid(d8bfa910f7a9ad14d9a2f513c3155449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e8c40dcd22f79aaffa5eb043756c71') in 0.095349 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.axio.fancybutton/Icons/scale.png
+  artifactKey: Guid(8333eb08dcc581540930892280783b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Icons/scale.png using Guid(8333eb08dcc581540930892280783b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d1ba781ba9b84eab7ba7cb9030c278') in 0.012585 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.axio.fancybutton/Icons/select.png
+  artifactKey: Guid(378efa7c27d379f4d80a61d489ccb7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Icons/select.png using Guid(378efa7c27d379f4d80a61d489ccb7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a161178f23948800f6041abcdcb4636') in 0.016076 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.axio.fancybutton/Icons/text.png
+  artifactKey: Guid(58ec25a33b901db4cb5e8e3fba6cc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Icons/text.png using Guid(58ec25a33b901db4cb5e8e3fba6cc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c24315b72c10db624c50aee1cfbdd') in 0.017225 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.445730 seconds.
+  path: Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef
+  artifactKey: Guid(6f71d09169597804a991766d79087aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef using Guid(6f71d09169597804a991766d79087aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74326953fae75128ec176a10cc06892e') in 0.002380 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (232ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		LoadAllAssembliesAndSetupDomain (516ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+				TypeCache.Initialize (269ms)
+					TypeCache.ScanAssembly (261ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.7 KB). Loaded Objects now: 3875.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.174000 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.230200 ms MarkObjects: 2.591000 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\fancy_button\Button\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.anatolygarchik.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'fancybutton.runtime' already exists (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/com.axio.fancybutton.Runtime.asmdef)
+Folder 'Packages/com.axio.fancybutton/Runtime/' contains multiple assembly definition files (Packages/com.axio.fancybutton/Runtime/fancybutton.Runtime.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/com.axio.fancybutton.Editor.asmdef)
+Assembly with name 'com.axio.fancybutton.editor' already exists (Packages/com.axio.fancybutton/Editor/fancybutton.Editor.asmdef)
+ArgumentException: An item with the same key has already been added. Key: b799b27d1785b934289706df7e883044
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <7e91c7d737f04acfa67ccef9a61afddb>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00027] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in <a62328349c154758b537cb55981f61df>:0 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00006] in <a62328349c154758b537cb55981f61df>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (223ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (549ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+				TypeCache.Initialize (244ms)
+					TypeCache.ScanAssembly (238ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (42.0 KB). Loaded Objects now: 3878.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 2.741700 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.186300 ms MarkObjects: 2.255600 ms  DeleteObjects: 0.039100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
