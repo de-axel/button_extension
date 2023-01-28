@@ -21,5 +21,5 @@ Each component requires settings that are created as a ScriptableObject. The pat
 To handle the `Selected` state, in case you need to select a button from the group, you need to use the `Selectable` component. In it, just put a group of buttons on which you want to handle this state.
 
 ### Note
-##### There is no way to call methods that take any parameters when registering through the editor. But you can extend this functionality by creating custom Unity Events.
-##### You can use ButtonShineAnimator, but do not specify a prefab for the Shine sprite, the scala animation will work as well. 
+- There is no way to call methods that take any parameters when registering through the editor. But you can extend this functionality by creating custom Unity Events.
+- You can use ButtonShineAnimator, but do not specify a prefab for the Shine sprite, the scala animation will work as well. 
